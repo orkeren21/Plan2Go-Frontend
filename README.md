@@ -1,2 +1,2 @@
 # Plan2Go-Frontend
-Repository for the frontend component for Plan2Go Travel Planner
+Repository for the frontend component of Plan2Go Travel Planner
