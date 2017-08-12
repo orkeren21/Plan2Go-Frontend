@@ -22,10 +22,11 @@ class App extends React.Component{
         this.setState({ showModal: false });
     }
 
+    
     render(){
     return (
       <div>
-          <button onClick={this.handleOpenModal}>Trigger Modal</button>
+          <button onClick={this.handleOpenModal}>Add Event</button>
           <Modal
               isOpen={this.state.showModal}
               contentLabel="Minimal Modal Example">
@@ -37,7 +38,6 @@ class App extends React.Component{
       </div>)
   }
 }
-
 
 class EventForm extends React.Component{
     startDate;
